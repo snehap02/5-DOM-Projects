@@ -64,20 +64,21 @@ h2{
 }
 #add{
     border: none;
-    background: rgb(57, 87, 186)000;
+    background: #3957ba;
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
-#remove{
+/* #remove{
+    display: none;
     border: none;
     background: #8a8787;
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 i{
     font-size: 15px;
 }
-h3{
+#status{
     margin-top: 10px;
     font-family: 'Calibre-reg';
     text-transform: uppercase;
