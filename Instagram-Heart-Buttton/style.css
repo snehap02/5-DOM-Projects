@@ -26,7 +26,7 @@ body{
     width: 360px;
     height: 675px;
     background: white;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 #div1{
     display: flex;
@@ -109,7 +109,7 @@ body{
     width: 100%;
     position: relative;
 }
-#div4 i{
+/* #div4 .tag{
     background: black;
     color: white;
     padding: 5px 6px;
@@ -119,6 +119,16 @@ body{
     margin-left: -21.8rem;
     margin-top: 13rem;
     cursor: pointer;
+} */
+#div4 #heart{
+    position: absolute;
+    margin-top: -8rem;
+    margin-left: 11rem;
+    font-size: 65px;
+    color: white;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: transform ease 0.4s;
 }
 #div5{
     display: flex;
@@ -167,4 +177,42 @@ body{
     margin-left: 16px;
     margin-top: 12px;
     color: #8a888a;
+}
+#section4{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 12px;
+    color: #8a888a;
+}
+#section4 img{
+    border: none;
+    width: 30px;
+}
+#section5{
+    margin-left: 16px;
+    margin-top: 3px;
+    color: #8a888a;
+    font-size: 14px;
+}
+#lastSection{
+    border-top: 2px solid #eeeded;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lastSection #menu{
+    display: flex;
+    gap: 50px;
+    margin-top: 12px;
+}
+#home{
+    width: 140px;
+    height: 5px;
+    background: black;
+    border-radius: 50px;
+    margin-top: 18px;
 }
